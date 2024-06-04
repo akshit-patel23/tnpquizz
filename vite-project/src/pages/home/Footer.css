@@ -1,0 +1,97 @@
+/* Footer Styles */
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.footer-section {
+    margin-bottom: 30px;
+}
+
+.footer-section h3 {
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin-bottom: 10px;
+}
+
+.footer-section ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.social-icons a {
+    color: #fff;
+    margin: 0 10px;
+    font-size: 1.5rem;
+}
+
+.social-icons a:hover {
+    color: #ccc;
+}
+
+form input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+form button[type="submit"] {
+    background-color: #ff8c00;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+form button[type="submit"]:hover {
+    background-color: #ff4500;
+}
+
+/* Copyright Section */
+.copyright {
+    margin-top: 20px;
+}
+
+/* Back to Top Button */
+#back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #ff8c00;
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    padding: 10px;
+    font-size: 1.5rem;
+    cursor: pointer;
+    display: none;
+}
+
+#back-to-top:hover {
+    background-color: #ff4500;
+}
